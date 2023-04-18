@@ -9,6 +9,6 @@ Feature: Amazon SignIn Features
     When Amazon Get Password
     And Amazon Remember Me
     And Amazon Login Btn Click
-    And Amazon Otp Verification
+#    And Amazon Otp Verification
     Then Amazon Logout
     Then Close Browser

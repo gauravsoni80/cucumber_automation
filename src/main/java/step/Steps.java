@@ -48,10 +48,10 @@ public class Steps {
 	    fbPage.submitButton();
 	}
 	
-	@When("Amazon Otp Verification")
-	public void amazon_otp_verification() throws Exception {
-		fbPage.otpVerification();
-	}
+//	@When("Amazon Otp Verification")
+//	public void amazon_otp_verification() throws Exception {
+//		fbPage.otpVerification();
+//	}
 	
 	@Then("Amazon Logout")
 	public void amazon_logout() throws Exception {

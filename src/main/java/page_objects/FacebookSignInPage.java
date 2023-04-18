@@ -48,12 +48,12 @@ public class FacebookSignInPage {
 		element.click();
 	}
 	
-	public void otpVerification() throws Exception {
-		element = Base.elementManager(driver, AmazonLogin.AMAZON_OTP_VERIFY_ID, ElementType.Id);
-		@SuppressWarnings("resource")
-		Scanner sc = new Scanner(System.in);
-		element.sendKeys(sc.next());
-	}
+//	public void otpVerification() throws Exception {
+//		element = Base.elementManager(driver, AmazonLogin.AMAZON_OTP_VERIFY_ID, ElementType.Id);
+//		@SuppressWarnings("resource")
+//		Scanner sc = new Scanner(System.in);
+//		element.sendKeys(sc.next());
+//	}
 	
 	public void logout() throws Exception {
 		element = Base.elementManager(driver, AmazonLogin.ACCOUNT_LIST, ElementType.XPath);
