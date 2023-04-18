@@ -59,7 +59,7 @@ public class FacebookSignInPage {
 		element = Base.elementManager(driver, AmazonLogin.ACCOUNT_LIST, ElementType.XPath);
 		Actions action = new Actions(driver);
 		action.moveToElement(element);
-		action.click().build();
+		action.perform();
 		element = Base.elementManager(driver, AmazonLogin.AMAZON_LOGOUT_BUTTON, ElementType.XPath);
 		element.click();
 	}
